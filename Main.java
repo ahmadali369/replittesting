@@ -4,17 +4,17 @@ import javax.swing.border.Border;
 
 public class Main {
     private static void createAndShowGUI() {
-        JFrame jFrame = new JFrame("Hello World Swing Example");
+        JFrame jFrame = new JFrame("Hello World this is replit testing");
         jFrame.setLayout(new FlowLayout());
         jFrame.setSize(500, 360);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JLabel label = new JLabel("Hello World Swing");
+        JLabel label = new JLabel("Hello World Swinggggg");
         Border border = BorderFactory.createLineBorder(Color.BLACK);
         label.setBorder(border);
         label.setPreferredSize(new Dimension(150, 200));
 
-        label.setText("Hello World Swing");
+        label.setText("Hello World Swing__________");
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.CENTER);
 
